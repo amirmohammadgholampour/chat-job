@@ -1,0 +1,14 @@
+/* انیمیشن‌ها */
+.hover-animate:hover {
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.button-animate:hover {
+    background-color: #34d399;
+    color: #000;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
