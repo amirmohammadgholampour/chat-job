@@ -1,0 +1,577 @@
+body {
+    background-color: #181616;
+    font-family: Vazirmatn;
+}
+
+.chat-job-logo {
+    color: #397433;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 1px;
+    left: 15px;
+}
+
+.authenticated-box {
+    position: absolute;
+    width: 140px;
+    height: 50px;
+    right: 15px;
+    top: 30px;
+    background: #CC7536;
+    border-radius: 45px;
+}
+
+a, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.sign-in-icon {
+    position: absolute;
+    top: 40px;
+    right: 113px;
+}
+
+.sign-up-icon {
+    position: absolute;
+    top: 35px;
+    right: 25px;
+}
+
+.divider {
+    background-color: black;
+    position: absolute;
+    top: 35px;
+    right:85px;
+}
+
+.search-box {
+    position: relative;
+    left: 23%;
+}
+
+.search-box-rectangle {
+    box-sizing: border-box;
+    position: absolute;
+    width: 800px;
+    height: 50px;
+    left: 15px;
+    top: 115px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #000000;
+    border-radius: 500px;
+}   
+
+.search-box-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    font-family: vazirmatn;
+    padding: 8px 50px;
+    width: 680px;
+    border-radius: 50px;
+    background: transparent;
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 10;
+}
+
+.big-text {
+    font-size: 40px;
+    color: white;
+    position: relative;
+    top: 100px;
+    right: 25%;
+}
+
+.seo-rectangle-course {
+    position: absolute;
+    width: 410px;
+    height: 300px;
+    left: 50px;
+    top: 400px;
+    background: rgba(30, 51, 28, 0.88);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 28px;
+    transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.seo-rectangle-course:hover {
+    background: rgba(50, 80, 45, 0.95); 
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4); 
+    cursor: pointer;
+}
+
+.seo-image-course {
+    position: absolute;
+    top: 410px;
+    left: 80px;
+    border-radius: 5%;
+}
+
+.seo-text-course {
+    color: white;
+    position: absolute;
+    top: 595px;
+    left: 5%;
+}
+
+.youtube-icon-seo {
+    position: absolute;
+    top: 652px;
+    left: 3.80%;
+}
+
+.ps-rectangle-course {
+    position: absolute;
+    width: 410px;
+    height: 300px;
+    left: 520px;
+    top: 400px;
+    background: rgba(30, 51, 28, 0.88);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 28px;
+    transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.ps-rectangle-course:hover {
+    background: rgba(50, 80, 45, 0.95); 
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4); 
+    cursor: pointer;
+}
+
+.ps-image-course {
+    position: absolute;
+    top: 410px;
+    left: 550px;
+    border-radius: 5%;
+}
+
+.ps-text-course {
+    color: white;
+    position: absolute;
+    top: 595px;
+    left: 550px;
+}
+
+.youtube-icon-ps {
+    position: absolute;
+    top: 652px;
+    left: 530px;
+}
+
+.linux-rectangle-course {
+    position: absolute;
+    width: 410px;
+    height: 300px;
+    left: 990px;
+    top: 400px;
+    background: rgba(30, 51, 28, 0.88);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 28px;
+    transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.linux-rectangle-course:hover {
+    background: rgba(50, 80, 45, 0.95); 
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4); 
+    cursor: pointer;
+}
+
+.linux-image-course {
+    position: absolute;
+    top: 410px;
+    left: 1019px;
+    border-radius: 5%;
+}
+
+.linux-text-course {
+    color: white;
+    position: absolute;
+    top: 595px;
+    right: 165px;
+}
+
+.youtube-linux-course {
+    position: absolute;
+    top: 652px;
+    right: 495px;
+}
+
+.more-rectangle {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 1430px;
+    top: 525px;
+    background: #CC7536;
+    border-radius: 30px;
+
+}
+
+
+@media (max-width:480px){
+    .big-text {
+        position: relative;
+        right: 10px;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .search-box-rectangle {
+        width: 450px;
+        position: relative;
+        left: -100px;
+    }
+
+    .search-icon {
+        left: -85px;
+    }
+
+    .search-box-input {
+        width: 350px;
+    }
+
+    .search-box {
+        top: -25px;
+    }
+
+    .seo-rectangle-course {
+        position: relative;
+        top: 130px;
+        left: -20px;
+    }
+
+    .seo-image-course {
+        position: relative;
+        top: -150px;
+        left: -50px;
+    }
+
+    .seo-text-course {
+        position: relative;
+        top: -165px;
+        right: 50px;
+        font-size: 15px;
+    }
+
+    .youtube-icon-seo {
+        position: relative;
+        top: -183px;
+        left: -380px;
+    }
+
+    .ps-rectangle-course {
+        position: relative;
+        left: -20px;
+        top: -140px;
+    }
+    
+    .ps-image-course {
+        position: relative;
+        left: -50px;
+        top: -420px;
+    }
+
+    .ps-text-course {
+        position: relative;
+        right: 50px;
+        top: -430px;
+        font-size: 15px;
+    }
+
+    .youtube-icon-ps {
+        position: relative;
+        top: -459px;
+        left: -380px;
+    }
+
+    .linux-text-course, .linux-image-course, .linux-rectangle-course, .youtube-linux-course, .more-rectangle {
+        display: none;
+    }
+
+}
+
+
+@media (max-width: 700px) {
+    .big-text {
+        position: relative;
+        right: 2.5px;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .search-box-rectangle {
+        width: 450px;
+        position: relative;
+        left: -75px;
+    }
+
+    .search-icon {
+        left: -65px;
+    }
+
+    .search-box-input {
+        width: 350px;
+    }
+
+    .search-box {
+        top: -25px;
+    }
+
+    .seo-course {
+        display: grid;
+        place-items: center;
+    }
+
+    .seo-rectangle-course {
+        position: relative;
+        top: 130px;
+        left: -20px;
+    }
+
+    .seo-image-course {
+        position: relative;
+        top: -150px;
+        left: -50px;
+    }
+
+    .seo-text-course {
+        position: relative;
+        top: -165px;
+        right: 50px;
+        font-size: 15px;
+    }
+
+    .youtube-icon-seo {
+        position: relative;
+        top: -183px;
+        left: -380px;
+    }
+
+    .ps-course {
+        display: grid;
+        place-items: center;
+    }
+    .ps-rectangle-course {
+        position: relative;
+        left: -20px;
+        top: -140px;
+    }
+    
+    .ps-image-course {
+        position: relative;
+        left: -50px;
+        top: -420px;
+    }
+
+    .ps-text-course {
+        position: relative;
+        right: 50px;
+        top: -430px;
+        font-size: 15px;
+    }
+
+    .youtube-icon-ps {
+        position: relative;
+        top: -459px;
+        left: -380px;
+    }
+
+    .linux-text-course, .linux-image-course, .linux-rectangle-course, .youtube-linux-course, .more-rectangle {
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    .big-text {
+        position: relative;
+        right: 2.5px;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .search-box-rectangle {
+        width: 450px;
+        position: relative;
+        left: -75px;
+    }
+
+    .search-icon {
+        left: -65px;
+    }
+
+    .search-box-input {
+        width: 350px;
+    }
+
+    .search-box {
+        top: -25px;
+    }
+
+    .seo-course {
+        display: grid;
+        place-items: center;
+    }
+
+    .seo-rectangle-course {
+        position: relative;
+        top: 130px;
+        left: -20px;
+    }
+
+    .seo-image-course {
+        position: relative;
+        top: -150px;
+        left: -50px;
+    }
+
+    .seo-text-course {
+        position: relative;
+        top: -165px;
+        right: 50px;
+        font-size: 15px;
+    }
+
+    .youtube-icon-seo {
+        position: relative;
+        top: -183px;
+        left: -380px;
+    }
+
+    .ps-course {
+        display: grid;
+        place-items: center;
+    }
+    .ps-rectangle-course {
+        position: relative;
+        left: -20px;
+        top: -140px;
+    }
+    
+    .ps-image-course {
+        position: relative;
+        left: -50px;
+        top: -420px;
+    }
+
+    .ps-text-course {
+        position: relative;
+        right: 50px;
+        top: -430px;
+        font-size: 15px;
+    }
+
+    .youtube-icon-ps {
+        position: relative;
+        top: -459px;
+        left: -380px;
+    }
+
+    .linux-text-course, .linux-image-course, .linux-rectangle-course, .youtube-linux-course, .more-rectangle {
+        display: none;
+    }   
+}
+
+@media (max-width:1024px) {
+    .big-text {
+        position: relative;
+        right: 2.5px;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .search-box-rectangle {
+        width: 450px;
+        position: relative;
+        left: -75px;
+    }
+
+    .search-icon {
+        top: 10px;
+        left: 10px;
+        display: grid;
+        place-items: center;
+        z-index: 10;        
+    }
+
+    .search-box-input {
+        width: 350px;
+    }
+
+    .search-box {
+        top: -25px;
+        left: 50px;
+        display: grid;
+        place-items: center;
+    }
+
+    .seo-course {
+        display: grid;
+        place-items: center;
+    }
+
+    .seo-rectangle-course {
+        position: relative;
+        top: 130px;
+        left: -20px;
+    }
+
+    .seo-image-course {
+        position: relative;
+        top: -150px;
+        left: -50px;
+    }
+
+    .seo-text-course {
+        position: relative;
+        top: -165px;
+        right: 50px;
+        font-size: 15px;
+    }
+
+    .youtube-icon-seo {
+        position: relative;
+        top: -183px;
+        left: -380px;
+    }
+
+    .ps-course {
+        display: grid;
+        place-items: center;
+    }
+    .ps-rectangle-course {
+        position: relative;
+        left: -20px;
+        top: -140px;
+    }
+    
+    .ps-image-course {
+        position: relative;
+        left: -50px;
+        top: -420px;
+    }
+
+    .ps-text-course {
+        position: relative;
+        right: 50px;
+        top: -430px;
+        font-size: 15px;
+    }
+
+    .youtube-icon-ps {
+        position: relative;
+        top: -459px;
+        left: -380px;
+    }
+
+    .linux-text-course, .linux-image-course, .linux-rectangle-course, .youtube-linux-course, .more-rectangle {
+        display: none;
+    }   
+}

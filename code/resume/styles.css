@@ -1,0 +1,364 @@
+body {
+    background: #181616;
+    font-family: Vazirmatn;
+}
+
+.chat-job-logo {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: large;
+}
+
+a, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.bot-message-1 {
+    color: #FFFFFF;
+    position: absolute;
+    right: 70px;
+    top: 370px;
+    line-height: 2;
+    z-index: 10;
+}
+.bot-message-2 {
+    color: #FFFFFF;
+    position: absolute;
+    top: 150px;
+    right: 70px;
+}
+
+.user-message {
+    position: relative;
+    top: -170px;
+    left: -20px;
+}
+.user-message-1 {
+    color: #FFFFFF;
+    position: absolute;
+    top: 325px;
+    left: 300px;
+}
+
+.user-message-rectangle {
+    box-sizing: border-box;
+    position: absolute;
+    width: 180px;
+    height: 50px;
+    left: 293px;
+    top: 330px;
+    z-index: -10;
+    background: #181616;
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+}
+
+.user-account {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 29px;
+    top: 36px;
+    border-radius: 100%;
+    background: rgba(30, 51, 28, 0.88);
+}
+
+.user-account p {
+    color: #FFFFFF;
+    font-size: x-large;
+    position: absolute;
+    right: 12px;
+    top: -20px;
+}
+
+.template-box {
+    position: absolute;
+    top: 1px;
+    left: 10px;
+}
+
+.template-rectangle {
+    position: absolute;
+    width: 215px;
+    height: 690px;
+    left: 30px;
+    top: 30px;
+    background: rgba(49, 97, 45, 0.26);
+    border-radius: 20px;
+}
+
+.template-text {
+    color: white;
+    position: absolute;
+    top: 25px;
+    left: 92px;
+}
+
+.template-resume-1 img {
+    width: 150px;
+    position: absolute;
+    top: 85px;
+    left: 61px;
+    border-radius: 4%;
+}
+
+.template-resume-2 img {
+    width: 150px;
+    position: absolute;
+    top: 340px;
+    left: 61px;
+    border-radius: 4%;
+}
+
+.template-other-text {
+    color: white;
+    position: absolute;
+    top: 550px;
+    left: 100px;
+}
+
+.template-other-icon {
+    position: absolute;
+    top: 548px;
+    left: 150px;
+    transition: transform 0.2s ease, box-shadow 0.1s ease;
+}
+
+.template-other-icon:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.template-add-text {
+    color: white;
+    position: absolute;
+    top: 665px;
+    left: 102px;
+}
+
+.template-add-icon {
+    position: absolute;
+    top: 678px;
+    left: 141px;
+    transition: transform 0.2s ease, box-shadow 0.1s ease;
+}
+
+.template-add-icon:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.message-box-rectangle {
+    position: relative; 
+    width: 1200px;
+    height: 70px;
+    left: 260px;
+    top: 545px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.message-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    font-family: vazirmatn;
+    padding: 30px;
+    border-radius: 50px;
+    background: transparent;
+}
+
+.message-box-icon {
+    position: absolute;
+    right: 60px;
+    top: 668px;
+    transition: transform 0.2s ease, box-shadow 0.1s ease;
+}
+
+.message-box-icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+.message-box-send-icon {
+    position: absolute;
+    left: 275px;
+    top: 688px;
+    transform: translateY(-50%);
+    opacity: 0.5;
+}
+
+/* ریسپانسیو برای موبایل */
+@media (min-width: 600px) and (max-width: 768px) {
+
+    .template-add-text, .template-other-icon, .template-add-icon, .template-rectangle, 
+    .template-resume-1, .template-resume-2, .template-other-text{
+        display: none;
+    }
+
+    .template-text {
+        position: relative;
+        top: 19px;
+        left: 25px;
+        box-sizing: border-box;
+        border: 1px solid #397433; 
+        padding: 5px 10px; 
+        display: inline-block; 
+        border-radius: 50px;
+        background-color: #397433;
+    }
+    
+    .user-account {
+        position: absolute;
+        right: 25px;
+        top: 29px;
+    }
+    
+    .user-message {
+        position: relative;
+        top: -170px;
+        left: -290px;
+    }
+
+    .bot-message-1 {
+        position: absolute;
+        top: 380px;
+        right: 20px;
+        width: 500px;
+    }
+
+    .bot-message-2 {
+        position: absolute;
+        top: 120px;
+        right: 20px;
+    }
+    
+    .message-input {
+        font-size: 15px;
+    }
+    .message-box-icon {
+        right: 25px;
+        top: 690px;
+        bottom: 15px;
+    }
+    .message-box-rectangle {
+        position: relative;
+        top: 580px;
+        left: 0.5%;
+        width: 93%; /* به‌جای مقدار ثابت */
+        height: 45px;
+    }
+    .message-box-send-icon {
+        left: 15px;
+        top: 705px;
+        bottom: 15px;
+    }
+}
+
+@media (max-width:599px) {
+    .template-add-text, .template-other-icon, .template-add-icon, .template-rectangle, 
+    .template-resume-1, .template-resume-2, .template-other-text{
+        display: none;
+    }
+
+    .template-text {
+        position: relative;
+        top: 19px;
+        left: 25px;
+        box-sizing: border-box;
+        border: 1px solid #397433; 
+        padding: 5px 10px; 
+        display: inline-block; 
+        border-radius: 50px;
+        background-color: #397433;
+    }
+
+    .user-account {
+        position: absolute;
+        right: 25px;
+        top: 29px;
+    }
+
+    .user-message {
+        position: relative;
+        top: -170px;
+        left: -290px;
+    }
+
+    .bot-message-1 {
+        position: absolute;
+        top: 380px;
+        right: 20px;
+        width: 500px;
+    }
+
+    .bot-message-2 {
+        position: absolute;
+        top: 120px;
+        right: 20px;
+    }
+     
+    .message-input {
+        font-size: 15px;
+    }
+    .message-box-icon {
+        right: 25px;
+        top: 690px;
+        bottom: 15px;
+    }
+    .message-box-rectangle {
+        position: relative;
+        top: 580px;
+        left: 0.5%;
+        width: 93%; /* به‌جای مقدار ثابت */
+        height: 45px;
+    }
+    .message-box-send-icon {
+        left: 15px;
+        top: 690px;
+        bottom: 15px;
+    }
+    
+}
+@media (min-width: 769px) and (max-width:1121px) {
+    .message-box-rectangle {
+        width: 800px;
+        height: 50px;
+        top: 565px;
+    }
+
+    .message-input {
+        font-size: 18px;
+    }
+
+    .message-box-icon {
+        top: 675px;
+        right: 30px;
+    }
+
+    .message-box-send-icon {
+        top: 699px;
+    }
+
+    .bot-message-1 {
+        top: 350px;
+        right: 50px;
+    }
+
+    .bot-message-2 {
+        width: 500px;
+        top: auto;
+        right: 50px;
+    }
+    .user-message {
+        left: -20px;
+        top: -200px;
+    }
+    
+}

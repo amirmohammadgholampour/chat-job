@@ -1,0 +1,523 @@
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    font-family: Vazirmatn;
+}
+  
+.chat-job-logo {
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 1px;
+    left: 15px;
+    color: #397433;
+}
+
+.search-box-rectangle {
+    box-sizing: border-box;
+    position: absolute;
+    width: 800px;
+    height: 50px;
+    left: 15px;
+    top: 115px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #000000;
+    border-radius: 500px;
+}   
+
+.search-box-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    font-family: vazirmatn;
+    padding: 8px 55px;
+    border-radius: 50px;
+    background: transparent;
+}
+
+.search-icon {
+    position: absolute;
+    left: 25px;
+    top: 125px;
+}
+
+.microphone-icon {
+    position: absolute;
+    left: 770px;
+    top: 125px;
+}
+
+
+.sign-in-icon {
+    position: absolute;
+    top: 40px;
+    right: 113px;
+}
+
+.sign-up-icon {
+    position: absolute;
+    top: 35px;
+    right: 25px;
+}
+
+.divider {
+    background-color: black;
+    position: absolute;
+    top: 35px;
+    right:85px;
+}
+
+.rectangle {
+    position: absolute;
+    width: 140px;
+    height: 50px;
+    right: 15px;
+    top: 30px;
+    background: #CC7536;
+    border-radius: 45px;
+}
+
+
+.future-path a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    position: relative;
+}
+
+.future-path-rectangle {
+    position: absolute;
+    width: 280px;
+    height: 65px;
+    right: 80px;
+    top: 225px;
+    background: rgba(30, 51, 28, 0.88);
+    border-radius: 45px;
+    transition: all 0.4s ease-in-out;
+}
+
+.future-path-text {
+    color: #ffffff;
+    position: absolute;
+    width: 281px;
+    height: 46px;
+    right: 39.9px;
+    top: 198px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 64px;
+    transition: all 0.4s ease-in-out;
+    transform: translateY(0px);
+    opacity: 0.9;
+}
+
+.future-path-icon {
+    position: absolute;
+    top: 245px;
+    right: 110px;
+    transition: all 0.4s ease-in-out;
+    transform: rotate(0deg);
+}
+
+.future-path:hover .future-path-rectangle {
+    background: rgba(50, 81, 50, 0.95);
+    transform: scale(1.05);
+}
+
+.future-path:hover .future-path-text {
+    transform: translateY(-5px);
+    opacity: 1;
+}
+
+.future-path:hover .future-path-icon {
+    transform: rotate(15deg) translateX(5px);
+}
+
+.career-consulted a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    position: relative;
+}
+
+.career-consulted-rectangle {
+    position: absolute;
+    width: 333px;
+    height: 65px;
+    right: 120px;
+    top: 330px;
+    background: #FFFF;
+    border-radius: 45px;
+    transition: all 0.4s ease-in-out;
+}
+
+.career-consulted-text {
+    color: black;
+    position: absolute;
+    top: 310px;
+    right: 240px;
+    font-size: 30px;
+    font-weight: 700;
+    transition: all 0.4s ease-in-out;
+    transform: translateY(0px);
+    opacity: 0.9;
+}
+
+.career-consulted-icon {
+    position: absolute;
+    top: 335px;
+    right: 150px;
+    transition: all 0.4s ease-in-out;
+    transform: rotate(0deg);
+}
+
+/* انیمیشن هنگام هاور */
+.career-consulted:hover .career-consulted-rectangle {
+    background: rgba(50, 81, 50, 0.95);
+    transform: scale(1.05);
+}
+
+.career-consulted:hover .career-consulted-text {
+    transform: translateY(-5px);
+    opacity: 1;
+}
+
+.career-consulted:hover .career-consulted-icon {
+    transform: rotate(15deg) translateX(5px);
+}
+
+
+
+.resume-mind a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    position: relative;
+}
+
+.resume-mind-rectangle {
+    position: absolute;
+    width: 260px;
+    height: 65px;
+    right: 80px;
+    top: 435px;
+    background: rgba(30, 51, 28, 0.88);
+    border-radius: 45px;
+    transition: all 0.4s ease-in-out;
+}
+
+.resume-mind-text {
+    color: #ffffff;
+    position: absolute;
+    width: 281px;
+    height: 46px;
+    right: 19px;
+    top: 408px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 64px;
+    transition: all 0.4s ease-in-out;
+    transform: translateY(0px);
+    opacity: 0.9;
+}
+
+.resume-mind-icon {
+    position: absolute;
+    top: 450px;
+    right: 110px;
+    transition: all 0.4s ease-in-out;
+    transform: rotate(0deg);
+}
+
+/* انیمیشن هنگام هاور */
+.resume-mind:hover .resume-mind-rectangle {
+    background: rgba(50, 81, 50, 0.95);
+    transform: scale(1.05);
+}
+
+.resume-mind:hover .resume-mind-text {
+    transform: translateY(-5px);
+    opacity: 1;
+}
+
+.resume-mind:hover .resume-mind-icon {
+    transform: rotate(15deg) translateX(5px);
+}
+
+.course a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    position: relative;
+}
+
+.course-rectangle {
+    position: absolute;
+    width: 260px;
+    height: 65px;
+    right: 175px;
+    top: 540px;
+    background: #FFFF;
+    border-radius: 45px;
+    transition: all 0.4s ease-in-out;
+}
+
+.course-text {
+    color: #000000;
+    position: absolute;
+    top: 518px;
+    right: 259px;
+    font-size: 30px;
+    font-weight: 700;
+    transition: all 0.4s ease-in-out;
+    transform: translateY(0px);
+    opacity: 0.9;
+}
+
+.course-icon {
+    position: absolute;
+    top: 545px;
+    right: 199px;
+    transition: all 0.4s ease-in-out;
+    transform: rotate(0deg);
+}
+
+/* انیمیشن هنگام هاور */
+.course:hover .course-rectangle {
+    background: rgba(50, 81, 50, 0.95);
+    transform: scale(1.05);
+}
+
+.course:hover .course-text {
+    transform: translateY(-5px);
+    opacity: 1;
+}
+
+.course:hover .course-icon {
+    transform: rotate(15deg) translateX(5px);
+}
+
+.navigation-pages {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.navigation-pages-faq {
+    position: absolute;
+    top: 20px;
+    right: 200px;
+}
+
+.navigation-pages-about-us {
+    position: absolute;
+    top: 20px;
+    right: 280px;
+}
+
+.navigation-pages-blog {
+    position: absolute;
+    top: 20px;
+    right: 399px;
+}
+
+a, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+    .chat-job-logo {
+        font-size: 14px;
+    }
+    
+    .search-box-rectangle {
+        width: 550px;
+        height: 40px;
+    }
+    
+    .search-box-input {
+        font-size: 16px;
+    }
+
+    .search-icon {
+        top: 120px;
+    }
+
+    .microphone-icon {
+        top: 120px;
+        left: 510px;
+    }
+
+    .future-path-text, .career-consulted-text, .resume-mind-text, .course-text {
+        font-size: 30px;
+    }
+
+    .future-path {
+        position: relative;
+        top: 85px;
+        left: -180px;
+    }
+
+    .career-consulted {
+        position: relative;
+        top: 105px;
+        left: -120px;
+    }
+
+    .resume-mind {
+        position: relative;
+        top: 95px;
+        left: -199px
+    }
+
+    .course {
+        position: relative;
+        top: 90px;
+        left: -100px;
+    }
+
+    .services {
+        position: relative;
+        right: 199px;
+        top: -70px;
+    }
+    
+    .auth-icon {
+        position: relative;
+        top: -10px;
+        right: 197px;
+    }
+    
+    .navigation-pages-blog {
+        font-size: 15px;
+        position: relative;
+        top: -20px;
+        left: 10px;
+    }
+
+    .navigation-pages-about-us {
+        font-size: 15px;
+        position: relative;
+        top: 20px;
+        left: 70px;
+    }
+
+    .navigation-pages-faq {
+        font-size: 15px;
+        position: relative;
+        top: 59px;
+        left: 170px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        background-image: none;
+        background-color: #181616;
+    }
+    
+    .chat-job-logo {
+        font-size: 14px;
+    }
+    
+    .search-box-rectangle {
+        width: 380px;
+        height: 40px;
+    }
+    
+    .search-box-input {
+        font-size: 16px;
+    }
+
+    .search-icon {
+        top: 120px;
+    }
+
+    .microphone-icon {
+        top: 120px;
+        left: 359px;
+    }
+
+    .future-path-text, .career-consulted-text, .resume-mind-text, .course-text {
+        font-size: 30px;
+    }
+
+    .future-path {
+        position: relative;
+        width: 80%; 
+        max-width: 300px; 
+        margin: 10px 275px;
+    }
+
+    .career-consulted {
+        position: relative;
+        width: 80%; 
+        max-width: 425px; 
+        margin: 10px 150px;
+    }
+
+    .resume-mind {
+        position: relative;
+        width: 80%; 
+        max-width: 300px; 
+        margin: 10px 290px;
+    }
+
+    .course {
+        position: relative;
+        width: 80%; 
+        max-width: 300px; 
+        margin: 10px 290px;
+    }
+
+    .services {
+        position: relative;
+        right: -100px;
+        top: -70px;
+    }
+    
+    .auth-icon {
+        position: relative;
+        top: -20px;
+        right: -10px;
+    }
+    
+    .navigation-pages-blog {
+        font-size: 15px;
+        position: relative;
+        top: -50px;
+        left: 10px;
+    }
+
+    .navigation-pages-about-us {
+        font-size: 15px;
+        position: relative;
+        top: -10px;
+        left: 70px;
+    }
+
+    .navigation-pages-faq {
+        font-size: 15px;
+        position: relative;
+        top: 29px;
+        left: 170px;
+    }
+}
+
+@media (max-width:540px) {
+    .auth-icon {
+        right: 20px;
+    }
+
+    .career-consulted-text {
+        font-size: 25px;
+        top: 300px;
+    }
+}

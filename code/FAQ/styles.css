@@ -1,0 +1,101 @@
+body {
+    background-color: #181616;
+    font-family: Vazirmatn;
+}
+
+.chat-job-logo {
+    color: #397433;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 1px;
+    left: 15px;
+}
+
+.header-text {
+    color: white;
+    font-size: 40px;
+    text-align: center; 
+    width: 100%; 
+    margin-top: 90px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.authenticated-box {
+    position: absolute;
+    width: 140px;
+    height: 50px;
+    right: 15px;
+    top: 30px;
+    background: #CC7536;
+    border-radius: 45px;
+}
+
+a, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.sign-in-icon {
+    position: absolute;
+    top: 40px;
+    right: 113px;
+}
+
+.sign-up-icon {
+    position: absolute;
+    top: 35px;
+    right: 25px;
+}
+
+.divider {
+    background-color: black;
+    position: absolute;
+    top: 35px;
+    right:85px;
+}
+
+.question-box {
+    position: relative;
+    top: 20px;
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 15px;
+    overflow: hidden;
+    background: #397433;
+    margin-bottom: 10px;
+}
+
+.question-box-small-rectangle {
+    background: #31612D;
+    color: #ffffff;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 15px;
+    transition: background 0.3s;
+}
+
+.question-box-small-rectangle:hover {
+    background: #345c39;
+}
+
+.question-box-big-rectangle {
+    background: #397433;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 0 0 15px 15px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out, padding 0.4s ease-in-out;
+    padding: 0 15px;
+}
+
+.question-box-big-rectangle.open {
+    max-height: 200px;
+    padding: 15px;
+} 
