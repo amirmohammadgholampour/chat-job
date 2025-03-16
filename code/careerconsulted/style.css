@@ -1,0 +1,294 @@
+body {
+    font-family: Vazirmatn;
+    background-color: #181616;
+}
+
+.chat-job-logo {
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+
+.user-account-shape {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 29px;
+    top: 30px;
+    border-radius: 100%;
+    background: rgba(30, 51, 28, 0.88);
+}
+
+.user-account-text {
+    color: #FFFFFF;
+    font-size: x-large;
+    position: absolute;
+    right: 40px;
+    top: 10px;
+}
+
+a, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.more-history-icon {
+    position: absolute;
+    top: 40px;
+    left: 1px;
+}
+
+.bot-text {
+    position: absolute;
+    width: 873px;
+    height: 153px;
+    left: 115px;
+    top: 199px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 191.29%;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.message-box-big-rectangle {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1200px;
+    height: 150px;
+    left: 165px;
+    top: 350px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 35px;
+}
+
+.message-box-small-rectangle {
+    position: absolute;
+    width: 1160px;
+    height: 60px;
+    left: 165px;
+    top: 350px;
+    background: #FFFFFF;
+    border: 1.5px solid #696868;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+
+.message-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-family: vazirmatn;
+    background: transparent;
+    color: #000;
+    width: 100%;
+    position: absolute;
+    left: 60px;
+}
+
+.message-input::placeholder {
+    color: #aaa;
+    font-size: 18px;
+}
+
+.message-box-send-icon {
+    position: absolute;
+    left: 10px;
+    top: 35px;
+    transform: translateY(-50%);
+    opacity: 0.5;
+}
+
+.filter-1 {
+    position: relative;
+    right: 28px;
+    top: -105px;
+}
+
+.filter-1-shape {
+    position: absolute;
+    width: 290px;
+    height: 50px;
+    right: 190px;
+    top: 440px;
+    background: #1E331C;
+    border-radius: 100px;
+}
+
+.filter-1-text {
+    color: white;
+    position: absolute;
+    top: 430px;
+    right: 215px;
+    z-index: 1;
+}
+
+.filter-2 {
+    position: relative;
+    top: -105px;
+    left: -70px;
+}
+
+.filter-2-shape {
+    position: absolute;
+    width: 280px;
+    height: 50px;
+    right: 499px;
+    top: 440px;
+    background: #1E331C;
+    border-radius: 100px;   
+}
+
+.filter-2-text {
+    color: white;
+    position: absolute;
+    top: 430px;
+    right: 520px;
+    z-index: 1;
+}
+
+.filter-3 {
+    position: relative;
+    top: -105px;
+    right: 90px;
+}
+
+.filter-3-shape {
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    right: 820px;
+    top: 440px;
+    background: #1E331C;
+    border-radius: 100px;
+}
+
+.filter-3-text {
+    color: white;
+    position: absolute;
+    top: 430px;
+    right: 850px;
+    z-index: 1;
+}
+
+.filter-1-shape, .filter-2-shape, .filter-3-shape {
+    transition: all 0.3s ease-in-out;
+}
+
+.active-filter .filter-1-shape,
+.active-filter .filter-2-shape,
+.active-filter .filter-3-shape {
+    background: #2a4a28; 
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3); 
+    transform: scale(1.05);
+}
+
+
+@media (max-width:768px) {
+    .bot-text {
+        position: absolute;
+        top: 120px;
+        left: -390px;
+    }
+    
+
+    
+    .message-box-big-rectangle {
+        position: absolute;
+        width: min(100% - 40px, 520px); 
+        height: 225px;
+        top: 345px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .message-box-small-rectangle {
+        width: min(89% - 20px, 520px); 
+        left: 50%;
+        top: 338px;
+        transform: translateX(-50%);
+    }
+    
+    .message-box-send-icon {
+        left: 2%;
+    }
+    
+    .filters {
+        width: min(100% - 11px, 600px); 
+        position: relative;
+        top: 10px;
+        left: -30px;
+    }
+ 
+    .filter-1 {
+        left: 170px;
+    }
+
+    .filter-1-shape {
+        width: 215px;
+        right: 185px;
+        height: 38px;
+    }
+    
+    .filter-1-text {
+        font-size: 13px;
+        right: 190px;
+    }
+
+    .filter-2 {
+        left: -20px;
+    }
+
+    .filter-2-shape {
+        width: 210px;
+        right: 220px;
+        height: 38px;
+    }
+
+    .filter-2-text {
+        font-size: 13px;
+        right: 230px;
+    }
+
+    .filter-3-shape {
+        width: 299px;
+        right: 30px;
+        height: 38px;
+        top: 500px;
+    }
+
+    .filter-3-text {
+        font-size: 13px;
+        right: 40px;
+        top: 490px;
+    }
+
+    .filter-3 {
+        right: 55px;
+    }
+}
+
+@media (max-width: 480px) {
+    .bot-text {
+        left: -420px;
+    }
+
+    .filter-1 {
+        left: 213px;
+    }
+
+    .filter-2 {
+        left: 22px
+    }
+
+    .filter-3 {
+        left: 10px;
+    }
+}
+

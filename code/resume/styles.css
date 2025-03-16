@@ -251,7 +251,7 @@ a, a:visited {
         position: relative;
         top: 580px;
         left: 0.5%;
-        width: 93%; /* به‌جای مقدار ثابت */
+        width: 93%; 
         height: 45px;
     }
     .message-box-send-icon {
@@ -316,7 +316,7 @@ a, a:visited {
         position: relative;
         top: 580px;
         left: 0.5%;
-        width: 93%; /* به‌جای مقدار ثابت */
+        width: 93%; 
         height: 45px;
     }
     .message-box-send-icon {
